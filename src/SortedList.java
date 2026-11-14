@@ -13,7 +13,6 @@ public class SortedList {
     private Node tail = null; // pointer to the tail of the list
 
     public void insert(int val) {
-        // TODO adapt the code to insert in a doubly linked list
 
         Node p = head, prev = null;
 
@@ -45,7 +44,6 @@ public class SortedList {
     }
 
     public String toStringReversed() {
-        // TODO implement this method for a doubly linked list
 
         return toStringReversed(tail);
     }

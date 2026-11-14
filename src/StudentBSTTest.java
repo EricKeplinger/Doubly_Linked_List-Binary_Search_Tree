@@ -35,7 +35,6 @@ class StudentBSTTest {
 
     @Test
     void testSearch() {
-        // TODO implement this test method
         assertNull(tree.search("1000"));
 
         tree.add(s1);
@@ -50,7 +49,6 @@ class StudentBSTTest {
 
     @Test
     void testToString() {
-        // TODO implement this test method
         tree.add(s1);
         tree.add(s2);
         tree.add(s3);

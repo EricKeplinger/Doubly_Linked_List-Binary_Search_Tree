@@ -5,7 +5,6 @@ import java.util.Objects;
  * und seiner Matrikelnummer.
  */
 class Student {
-    // TODO add fields, constructor, and toString() method
     /**
      * Die Matrikelnummer des Studenten.
      * Der Vorname des Studenten.
@@ -111,7 +110,6 @@ public class StudentBST {
      *         Matrikelnummer bereits im Baum vorhanden ist
      */
     public boolean add(Student student) {
-        // TODO implement this method
         StudentNode p = root, parent = null;
         if(student == null){
             return false;
@@ -171,7 +169,6 @@ public class StudentBST {
      *         entsprechender Student gefunden wurde
      */
     private Student search(StudentNode cur, String matrNr) {
-        // TODO implement this method
         if(cur == null){
             return null;
         }
@@ -216,7 +213,6 @@ public class StudentBST {
      *           gesammelt werden
      */
     private void inorder(StudentNode node, StringBuilder sb) {
-        // TODO implement this method
         if(node == null){
             return;
         }
